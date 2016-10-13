@@ -4,6 +4,6 @@ function setup() {
 }
 
 function draw() {
-  ( mouseX , mouseY , 100 , 100 );
-  triangle( 1 , 1 , 2 , 2 , 3 , 3 );
+  triangle( mouseX+40 , mouseY+30 , mouseX-40 , mouseY+30, mouseX , mouseY-40);
+  
 }
