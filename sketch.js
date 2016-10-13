@@ -5,4 +5,5 @@ function setup() {
 
 function draw() {
   ellipse( mouseX , mouseY , 100 , 100 );
+  triangle( 1 , 1 , 2 , 2 , 3 , 3 );
 }
